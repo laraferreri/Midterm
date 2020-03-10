@@ -1,0 +1,23 @@
+.gallery {
+  display: grid;
+}
+
+.imageContainer{
+  grid-template-columns: 50% 50% 50%;
+  grid-template-rows: 50% 50% 50% 50%;
+  grid-gap: 1px;
+  width: 50%;
+}
+
+.head{
+  font-weight: bold;
+  font-size: 40pt;
+}
+
+.pageDescription{
+  font-size: 42pt;
+}
+
+.info{
+  font-size: 30pt;
+}
