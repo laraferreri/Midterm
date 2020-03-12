@@ -2,6 +2,10 @@
   font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
 }
 
+body {
+  margin: 0px;
+}
+
 .pageTitle {
   text-align: left;
   font-size: 55pt;
@@ -71,4 +75,22 @@
 .video{
   display: flex;
   justify-content: left;
+}
+.line3{
+  width: 110%;
+  height: 50px;
+  background: #6eeeff;
+  opacity: 0.5;
+}
+
+.line4{
+  width: 110%;
+  height: 100px;
+  background: #82ff82;
+  opacity: 0.5;
+}
+.line5 {
+  width: 110%;
+  height: 25px;
+  background: #f26bcc;
 }
