@@ -76,6 +76,7 @@ body {
   display: flex;
   justify-content: left;
 }
+
 .line3{
   width: 110%;
   height: 50px;
@@ -94,3 +95,33 @@ body {
   height: 25px;
   background: #f26bcc;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+
+  .imageContainer {
+      justify-content: : center;
+      width: 350px;
+      height: 350px;
+    }
+    .line1{
+      width: 110%;
+      height: 50px;
+      background: ##eb34e8;
+      opacity: 0.5;
+    }
+
+    .line2{
+      width: 110%;
+      height: 100px;
+      background: ##00ff55;
+      opacity: 0.5;
+    }
+    .line {
+      width: 110%;
+      height: 25px;
+      background: ##fffb00;
+    }
+  }
